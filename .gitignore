@@ -1,0 +1,29 @@
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+Aparelho/*.000
+Aparelho/*.bak
+Aparelho/*.bck
+Aparelho/*.kicad_pcb-bak
+Aparelho/*.kicad_sch-bak
+Aparelho/*-backups
+Aparelho/*.kicad_prl
+Aparelho/*.sch-bak
+Aparelho/*~
+Aparelho/_autosave-*
+Aparelho/*.tmp
+Aparelho/*-save.pro
+Aparelho/*-save.kicad_pcb
+Aparelho/fp-info-cache
+
+# Netlist files (exported from Eeschema)
+Aparelho/*.net
+
+# Autorouter files (exported from Pcbnew)
+Aparelho/*.dsn/Aparelho/
+/Aparelho/*.ses
+
+# Exported BOM files
+Aparelho/*.xml
+Aparelho/*.csv
